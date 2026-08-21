@@ -1,0 +1,16 @@
+# CMake build tree (includes the fetched raylib)
+build/
+cmake-build-*/
+
+# Per-machine; symlink it from build/ instead
+compile_commands.json
+.cache/
+
+# Career save
+.pathogen_protocol_save
+
+.DS_Store
+.vscode/
+.idea/
+*.o
+*.dSYM/
